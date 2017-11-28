@@ -12,7 +12,7 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "cpuzzuol\\Timezones\\": "src/"
+            "Cpuzzuol\\Timezones\\": "src/"
         }
     },
     "extra": {
@@ -21,7 +21,7 @@
         },
         "laravel": {
             "providers": [
-                "cpuzzuol\\Timezones\\TimezonesServiceProvider"
+                "Cpuzzuol\\Timezones\\TimezonesServiceProvider"
             ]
         }
     }
