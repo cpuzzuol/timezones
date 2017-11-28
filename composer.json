@@ -10,6 +10,9 @@
     "minimum-stability": "stable",
     "require": {},
     "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        },
         "laravel": {
             "providers": [
                 "Cpuzzuol\\Timezones\\TimezonesServiceProvider"
@@ -17,5 +20,4 @@
             "aliases": {}
         }
     },
-    "version": "1.0.0"
 }
