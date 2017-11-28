@@ -7,15 +7,21 @@
             "email": "cpuzzuol@emich.edu"
         }
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "require": {},
+    "autoload": {
+        "psr-4": {
+            "cpuzzuol\\Timezones\\": "src/"
+        }
+    },
     "extra": {
         "branch-alias": {
             "dev-master": "1.0-dev"
         },
         "laravel": {
             "providers": [
-                "Cpuzzuol\\Timezones\\TimezonesServiceProvider"
+                "cpuzzuol\\Timezones\\TimezonesServiceProvider"
             ]
         }
     }
