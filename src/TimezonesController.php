@@ -1,6 +1,6 @@
 <?php
 
-namespace cpuzzuol\Timezones;
+namespace Cpuzzuol\Timezones;
 
 use App\Http\Controllers\Controller;
 use Carbon\Carbon;

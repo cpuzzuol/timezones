@@ -1,6 +1,6 @@
 <?php
 
-namespace cpuzzuol\Timezones;
+namespace Cpuzzuol\Timezones;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -16,7 +16,7 @@ class TimezonesServiceProvider extends ServiceProvider
         $this->loadRoutesFrom(__DIR__.'/routes.php');
         $this->loadMigrationsFrom(__DIR__.'/migrations');
 
-        $this->app->make('cpuzzuol\Timezones\TimezonesController');
+        $this->app->make('Cpuzzuol\Timezones\TimezonesController');
     }
 
     /**
