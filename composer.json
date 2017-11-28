@@ -16,8 +16,7 @@
         "laravel": {
             "providers": [
                 "Cpuzzuol\\Timezones\\TimezonesServiceProvider"
-            ],
-            "aliases": {}
+            ]
         }
     }
 }
