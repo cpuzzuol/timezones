@@ -1,0 +1,20 @@
+{
+    "name": "cpuzzuol/timezones",
+    "description": "Demo-package to show time. http://laraveldaily.com/how-to-create-a-laravel-5-package-in-10-easy-steps/",
+    "authors": [
+        {
+            "name": "Chris Puzzuoli",
+            "email": "cpuzzuol@emich.edu"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Cpuzzuol\\Timezones\\TimezonesServiceProvider"
+            ],
+            "aliases": {}
+        }
+    }
+}
